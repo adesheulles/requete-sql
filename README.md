@@ -1,5 +1,5 @@
 # requete-sql-c-
-Dans ce tp nous avons vu comment charger les données d'une base de donnée et les mettre dans des classes en c#, puis on les a modifiées et on les a sauvegarder dans la BDD.
+Dans ce tp nous avons vu comment charger les données d'une base de donnée et les mettre dans des classes en c#, puis on les a modifiées et on les a sauvegarder dans la BDD.Le projet ce charge en DLL pour être utilisé dans dautre projet.
  
  Les outils mis en oeuvre :
  * VisualStudio
