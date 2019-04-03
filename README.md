@@ -18,4 +18,4 @@ Le but de ce tp est de pouvoir créer de nouvelle fenêtre qui seront stocker da
 |Affichage et fermeture des fenêtre|c#|programmation objet|
  
  # Diagramme de classes
-  ![diagramme-de-classe.png](https://github.com/adesheulles/tp-Mere-Fille/image/blob/master/diagramme-de-classe.PNG)
+  ![diagramme-de-classe.png](https://github.com/adesheulles/requete-sql-c-/tree/master/image/diagramme-de-classe.PNG)
