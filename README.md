@@ -1,21 +1,19 @@
 # requete-sql-c-
-Dans ce tp nous avons vu l'heritage des fenêtre de windows form.
-Le but de ce tp est de pouvoir créer de nouvelle fenêtre qui seront stocker dans une liste nous pouront les afficher avec un bouton
- les cacher ou les suprimer nous pouvont aussi faire en sorte que la fenêtre fille change de nom est quelle soit la seul à être 
- manipuler tant quelle n'est pas fermer.
+Dans ce tp nous avons vu comment charger les données d'une base de donnée et les mettre dans des classes en c#, puis on les a modifiées et on les a sauvegarder dans la BDD.
  
  Les outils mis en oeuvre :
  * VisualStudio
- * WindowsForm
  
- Le développement tourne autour de 2 grandes parties.
- * Création ,stokage et suppression des fenêtre fille.
- * Affichage et fermeture des fenêtre.
+ Le développement tourne autour de 3 grandes parties.
+ * Charge les données de la BDD.
+ * Affiche ou modifie les données.
+ * Sauvegarde les données dans la BDD.
  
  |développement          |langages |technique de programmation                           |
 |-----------------------|:-------:|----------------------------------------------------:|
-|Création ,stokage et suppression des fenêtre fille |c#|programmation objet|
-|Affichage et fermeture des fenêtre|c#|programmation objet|
+|Charge les données de la BDD |c#|programmation objet|
+|Affiche ou modifie les données|c#|programmation objet|
+|Sauvegarde les données dans la BDD|c#|programmation objet|
  
  # Diagramme de classes
   ![diagramme-de-classe.png](https://github.com/adesheulles/requete-sql-c-/tree/master/image/diagramme-de-classe.PNG)
