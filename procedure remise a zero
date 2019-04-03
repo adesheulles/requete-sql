@@ -1,0 +1,28 @@
+delimiter |
+drop procedure if exist RemiseAZero|
+create procedure RemiseAZero()
+begin
+	delete from posseder;
+	delete from employe;
+	delete from diplome;
+	delete from service;
+	ALTER TABLE employe AUTO_INCREMENT=1;
+	ALTER TABLE service AUTO_INCREMENT=1;
+	ALTER TABLE diplome AUTO_INCREMENT=1;
+end |
+delimiter ;
+
+delimiter |
+drop procedure if exist RemiseAZero|
+create procedure RemiseAZero()
+begin
+	delete from eleve;
+	delete from classe;
+	delete from enseignant;
+	delete from aauth_users;
+	ALTER TABLE eleve AUTO_INCREMENT=1;
+	ALTER TABLE classe AUTO_INCREMENT=1;
+	ALTER TABLE enseignant AUTO_INCREMENT=1;
+	ALTER TABLE aauth_users AUTO_INCREMENT=1;
+end |
+delimiter ;
